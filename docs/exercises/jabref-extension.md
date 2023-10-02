@@ -6,21 +6,21 @@ title : Woche 5
 
 
 * Dieses Übungsblatt muss bis spätestens 25. Oktober, 23.59 bearbeitet und via Pull Request abgegeben werden.
-* Wir empfehlen, diese Übungsblatt in Zweiergruppen zu bearbeiten (siehe Abgabeinstruktionen am Ende dieses Dokuments)
+* Wir empfehlen, dieses Übungsblatt in Zweiergruppen zu bearbeiten (siehe Abgabeinstruktionen am Ende dieses Dokuments).
 
 
 ## Einführung
 
 
 In dieser Übung werden Sie eine komplette (jedoch sinnfreie) Erweiterung an Jabref vornehmen.
-Ihre Erweiterung soll erkennen, dass ein Paper vom Autor "Fred Brooks" zur Datenbank hinzugefügt wurde. Wenn das Paper hinzugefügt wird soll eine Dialogbox angezeigt werden.
-Diese Funktion soll sich via den *Preferences* an und ausschalten lassen.
+Ihre Erweiterung soll erkennen, dass ein Paper vom Autor "Fred Brooks" zur Datenbank hinzugefügt wurde. Wenn das Paper hinzugefügt wird, soll eine Dialogbox angezeigt werden.
+Diese Funktion soll sich via den *Preferences* an- und ausschalten lassen.
 
 In den folgenden Aufgaben entwickeln Sie diese Erweiterung Schritt für Schritt.
 
 ## Aufgabe 0: Vorbereitung
 
-####  Erstellen eines Feature branch
+####  Erstellen eines Featurebranch
 
 Da wir die Änderungen der letzten Übung hier nicht benötigen, starten wir wieder vom Main branch.
 ```
@@ -53,8 +53,7 @@ Lesen Sie auch die [High-Level Dokumentation](https://jabref.readthedocs.io/en/l
 ## Aufgabe 1: Arbeiten mit dem Eventbus
 
 In dieser Aufgabe nutzen Sie den EventBus. Erstellen Sie eine neue Klasse ```BrooksHandler``` in einem neuen Package ```org.jabref.gui.sillyextensions```.
-Diese Klasse soll auf auf Events vom Typ ```EntriesAddedEvent``` und ```EntryChangedEvent``` reagieren. Wenn immer ein solches Event von Jabref generiert wird, soll
-die Meldung "Entries Added" sowie der Titel des entsprechenden Eintrags auf der Konsole (mit ```System.out.println```) ausgebgeben werden.
+Diese Klasse soll auf auf Events vom Typ ```EntriesAddedEvent``` und ```EntryChangedEvent``` reagieren. Wenn immer ein solches Event von Jabref generiert wird, soll die Meldung "Entries Added" sowie der Titel des entsprechenden Eintrags auf der Konsole (mit ```System.out.println```) ausgebgeben werden.
 
 *Tipp:* Als Vorlage schauen Sie sich an, wie dies für die Klasse ```CitationStyleCache``` implementiert ist. 
 Nutzen Sie auch die Funktion *Find Usages*, die Sie durch das Context Menu in Intellij erreichen können um herauszufinden, wo eine bestimmte Funktionalität benutzt wird.
@@ -70,8 +69,7 @@ In einem realen Projekt wollen Sie nicht Meldungen  mit ```System.out.println```
 
 
 Schauen Sie sich danach die Datei ```tinylog.properties``` an, die Sie im Verzeichnis ```src\main\resources\``` finden. In dieser Datei können Sie den Logging Level verändern.
-Setzen Sie den Logging Level ```Info``` auf ```Debug```? Schauen Sie sich die Meldungen an, die 
-auf die Konsole ausgegeben werden, wenn Sie JabRef start. Was beobachten Sie?
+Setzen Sie den Logging Level ```Info``` auf ```Debug```? Schauen Sie sich die Meldungen an, die auf die Konsole ausgegeben werden, wenn Sie JabRef starten. Was beobachten Sie?
 
 *Hinweis:* In der Dokumentation steht, dass der Logger mittels ```LogFactory.getLog(<ClassName>.class);``` instantiiert werden kann. Es sollte jedoch ```LoggerFactory.getLogger(<ClassName>.class)``` sein. 
 
@@ -100,8 +98,7 @@ Committen Sie Ihre Änderungen.
 
 Fügen Sie eine neue Checkbox *Scan for Brooks* im Preferences Dialog hinzu.
 
-*Tipp:* Orientieren Sie sich an der Einstellung ```showAdvancedHints```. Suchen Sie die Stellen im Code wo etwas für diese Einstellung gemacht wird und imitieren Sie den
-Code.
+*Tipp:* Orientieren Sie sich an der Einstellung ```showAdvancedHints```. Suchen Sie die Stellen im Code wo etwas für diese Einstellung gemacht wird und imitieren Sie den Code.
 
 Committen Sie Ihre Änderungen.
 
@@ -118,5 +115,4 @@ Die Abgabe der Übung erfolgt durch push vom entsprechenden Branch:
 git push origin uebung5
 ```
 und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/goto_adam_file_1659074_download.html)) an. 
-Wenn Sie zu zweit gearbeitet haben, fügen Sie bitte ihre(n) Partner(in) als *Assignee* hinzu
-(eventuell müssen Sie in den Einstellungen noch Zugriff erteilen).
+Wenn Sie zu zweit gearbeitet haben, fügen Sie bitte ihre(n) Partner(in) als *Assignee* hinzu (eventuell müssen Sie in den Einstellungen noch Zugriff erteilen).
