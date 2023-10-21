@@ -24,7 +24,7 @@ Die Funktionalität soll in dieser Phase nicht vollständig implementiert werden
 
 Erstellen Sie die Technische Dokumentation. Nutzen Sie dazu dieses  [Template](../project/templates/technical-doc)
 
-* [Link zum template im Markdown Format](https://raw.githubusercontent.com/unibas-marcelluethi/software-engineering/main/docs/project/templates/technical-doc.md)
+* [Link zum template im Markdown Format](https://raw.githubusercontent.com/unibas-marcelluethi/software-engineering/main/docs/project/templates/technical-doc.md) <!--- hier steht week 7 als titel -->
 
 Neben den im Template vorgegebenen Aspekten, muss das Dokument mindestens die folgenden Anforderungen erfüllen:
 
