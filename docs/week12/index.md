@@ -15,13 +15,13 @@ und moderne Entwicklungswerkzeuge verbinden.
 #### Vorbereitung (zu bearbeiten bis 5. Dezember)
 
 * Schritt 1: Finden Sie, durch eine kurze Websuche, heraus, wofür die Begriffe Continuous Integration, Continuous Delivery und Continuous Deployment stehen. 
-* Schritt 2: Schauen Sie sich stattdessen das (kurze Video) zum Thema Continuous Delivery von Martin Fowler an und arbeiten Sie an Ihrem Projekt.
-    * Link zum Video [(youtube)](https://www.youtube.com/watch?v=aoMfbgF2D_4)
-* Schritt 3: Bearbeiten Sie den Selbsttest für Woche 12 ([auf Adam)](https://adam.unibas.ch/goto_adam_tst_1646926.html)).
+* Schritt 2: Schauen Sie sich stattdessen das (kurze) Video zum Thema Continuous Delivery von Martin Fowler an und arbeiten Sie an Ihrem Projekt.
+    * Link zum Video [(YouTube)](https://www.youtube.com/watch?v=aoMfbgF2D_4)
+* Schritt 3: Bearbeiten Sie den Selbsttest für Woche 12 ([(auf Adam)](https://adam.unibas.ch/goto_adam_tst_1646926.html)).
 
-### Präsenzveranstaltung vom 6 Dezember
+### Präsenzveranstaltung vom 6. Dezember
 
-* In der Präsenzveranstaltung von 8-10 können Sie an Ihrem Projekt arbeiten. Der Theorie-Input wird stattdessen in der Übungsstunde erfolgen. Wir werden da einen Gastvortrag zum Thema Agile Softwareentwicklung hören. *
+* In der Präsenzveranstaltung von 8-10h können Sie an Ihrem Projekt arbeiten. Der Theorie-Input wird stattdessen in der Übungsstunde erfolgen. Wir werden da einen Gastvortrag zum Thema Agile Softwareentwicklung hören. *
 
 
 ## Übungsstunde
@@ -34,7 +34,7 @@ und moderne Entwicklungswerkzeuge verbinden.
 
 ### Lernziele
 
-Teil Teilnehmenden
+Die Teilnehmenden
 - können erklären, was man unter dem Begriff Continuous Delivery versteht.
 - verstehen wie sich Continuous Delivery von Continuous Integration und Continuous Deployment unterscheidet.
 - können die Wichtigkeit von Spezifikationen und automatisierten Tests in diesem Prozess einschätzen.
